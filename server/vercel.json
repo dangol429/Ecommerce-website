@@ -14,9 +14,9 @@
     { "src": "/api/shop/search(.*)", "dest": "server.js" },
     { "src": "/api/shop/review(.*)", "dest": "server.js" },
     { "src": "/api/common/feature(.*)", "dest": "server.js" },
-    { "src": "/(.*)", "dest": "server.js" }
+    { "src": "/(.*)", "dest": "/shop/home" } 
   ],
   "rewrites": [
-    {"source": "/(.*)", "destination": "/shop/home"}
+    { "source": "/(.*)", "destination": "/shop/home" } 
   ]
 }
