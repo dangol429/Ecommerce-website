@@ -14,12 +14,7 @@
     { "src": "/api/shop/search(.*)", "dest": "server.js" },
     { "src": "/api/shop/review(.*)", "dest": "server.js" },
     { "src": "/api/common/feature(.*)", "dest": "server.js" },
+    { "src": "/[^.]+", "dest": "/", "status": 200 }, 
     { "src": "/(.*)", "dest": "server.js" }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
   ]
 }
