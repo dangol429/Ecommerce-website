@@ -6,14 +6,14 @@
   "routes": [
     { "src": "/api/auth(.*)", "dest": "server.js" },
     { "src": "/api/admin/products(.*)", "dest": "server.js" },
-    { "src": "/api/admin/orders(.*)", "dest": "/server/server.js" },
-    { "src": "/api/shop/products(.*)", "dest": "/server/server.js" },
-    { "src": "/api/shop/cart(.*)", "dest": "/server/server.js" },
-    { "src": "/api/shop/address(.*)", "dest": "/server/server.js" },
-    { "src": "/api/shop/order(.*)", "dest": "/server/server.js" },
-    { "src": "/api/shop/search(.*)", "dest": "/server/server.js" },
-    { "src": "/api/shop/review(.*)", "dest": "/server/server.js" },
-    { "src": "/api/common/feature(.*)", "dest": "/server/server.js" },
+    { "src": "/api/admin/orders(.*)", "dest": "server.js" },
+    { "src": "/api/shop/products(.*)", "dest": "/server.js" },
+    { "src": "/api/shop/cart(.*)", "dest": "server.js" },
+    { "src": "/api/shop/address(.*)", "dest": "server.js" },
+    { "src": "/api/shop/order(.*)", "dest": "server.js" },
+    { "src": "/api/shop/search(.*)", "dest": "server.js" },
+    { "src": "/api/shop/review(.*)", "dest": "server.js" },
+    { "src": "/api/common/feature(.*)", "dest": "server.js" },
     { "src": "/(.*)", "dest": "server.js" }
   ]
 }
