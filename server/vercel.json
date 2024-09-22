@@ -1,8 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "server.js", "use": "@vercel/node" },
-    { "src": "client/public/index.html", "use": "@vercel/static" }
+    { "src": "server.js", "use": "@vercel/node" }
   ],
   "routes": [
     { "src": "/api/auth(.*)", "dest": "server.js" },
@@ -18,3 +17,6 @@
     { "src": "/[^.]+", "dest": "/", "status": 200 }
   ]
 }
+
+
+
