@@ -30,13 +30,6 @@ app.use(
   cors({
     origin: "https://ecommerce-website-2225.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
-    allowedHeaders: [
-      "Content-Type",
-      "Authorization",
-      "Cache-Control",
-      "Expires",
-      "Pragma",
-    ],
     credentials: true,
   })
 );
