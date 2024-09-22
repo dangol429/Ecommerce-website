@@ -26,6 +26,8 @@ mongoose.connect("mongodb+srv://sujanchaudhary415:Sujan%40123@cluster0.mdrl3.mon
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+console.log(PORT)
+
 app.use(
   cors({
     origin: "https://ecommerce-website-2225.vercel.app",
