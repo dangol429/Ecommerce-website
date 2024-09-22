@@ -15,5 +15,11 @@
     { "src": "/api/shop/review(.*)", "dest": "server.js" },
     { "src": "/api/common/feature(.*)", "dest": "server.js" },
     { "src": "/(.*)", "dest": "server.js" }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
   ]
 }
