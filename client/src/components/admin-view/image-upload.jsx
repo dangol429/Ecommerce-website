@@ -50,7 +50,7 @@ function ProductImageUpload({
     const data = new FormData();
     data.append("my_file", imageFile);
     const response = await axios.post(
-      "https://ecommerce-website-2225.vercel.app/api/admin/products/upload-image",
+      "https://ecommerce-website-api-eight.vercel.app/api/admin/products/upload-image",
       data
     );
     console.log(response, "response");
